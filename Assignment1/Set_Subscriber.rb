@@ -42,7 +42,11 @@ class Set
 		if !filename.nil?
 			CSV.foreach(filename, 'r') do |row|
 				row_array = row[0].split(" ")
-				self.add_element(Subscriber.new(row_array[0].to_i, row_array[1]))
+				account_number = row_array[0]
+				name = ""
+				row_array.drop(1).each {|token| name << token + " "}
+				name.chomp!(" ")
+				self.add_element(Subscriber.new(account_number.to_i, name))
 			end
 		end
 	end

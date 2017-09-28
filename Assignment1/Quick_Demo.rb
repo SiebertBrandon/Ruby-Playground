@@ -8,7 +8,7 @@
 # Description: Linear demo showing off the functionality of the classes contained in Subscriber_Set.rb
 # Last modified on: 9/26/2018
 
-require_relative "Subscriber_Set.rb"
+require_relative "Set_Subscriber.rb"
 
 puts "Reading in 15.csv..."
 my_test = Set.new("15.csv")
