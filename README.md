@@ -1,5 +1,4 @@
-# Software-Engineering
-Assignments from TCNJ's Software Engineering class
+# Ruby Playground
 
 ## Assignment 1
 The	purpose	of	this	assignment	is	for	students	to	learn	a	new	language, by implementing	a	program	
